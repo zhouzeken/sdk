@@ -1,0 +1,22 @@
+{
+    "name": "zhouzeken/sdk",
+    "description": "开发封装sdk示例",
+    "keywords": ["php","开发封装sdk示例"],
+    "homepage": "https://github.com/zhouzeken/sdk",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhouzeken",
+            "email": "1454740914@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4":{
+             "zhouzeken\\sdk\\": "src/"
+         }
+    }
+}
